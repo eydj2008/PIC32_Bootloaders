@@ -350,11 +350,12 @@ void CPIC32UBLDlg::ExtraInitialization()
 {
 	char com[9][5] = { "COM1", "COM2", "COM3", "COM4", "COM5", "COM6", "COM7", "COM8", "COM9"};
 	char baud[5][10] = {"9600", "19200", "38400", "57600", "115200"};
+	int i;
 
 	EraseProgVer = false;
 
 	// Fill Com Port Combo Box with "COM1, COM2 ........, COM9"	
-	for(int i = 8; i >= 0; i--)
+	for(i = 8; i >= 0; i--)
 	{
 		ctrlComboBoxComPort.InsertString(0, com[i]);
 	}
