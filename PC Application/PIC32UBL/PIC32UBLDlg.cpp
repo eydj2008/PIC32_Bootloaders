@@ -382,8 +382,8 @@ void CPIC32UBLDlg::ExtraInitialization()
 	ConnectionEstablished = false;
 
 	// Display default VID and PID in edit box. This is default value for Microchip device to work.
-	stringEditBoxUSBVID = "0x4D8";
-	stringEditBoxUSBPID = "0x03C";
+	stringEditBoxUSBVID = "0x28BD";
+	stringEditBoxUSBPID = "0x1000";
 	// Select communication "Com Port" by default.
 	 boolCheckComEnable = 1;
 	PortSelected = COM;
